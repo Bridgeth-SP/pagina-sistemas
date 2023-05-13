@@ -42,7 +42,8 @@
 </header>
 
 <body>
-
+<div>
+  <h1 id="comparacion"  style="color: white; margin-top: 90px; text-align: center; font-size: 40px;">Ciberseguridad</h1>
 <!--DeeWeb / DarkWeb--> 
     <div class="container" style="margin-top: 30px; margin-bottom: 30px;">
       <div class="row">
@@ -98,15 +99,15 @@
       </ul>
       <span data-bs-toggle="modal" data-bs-target="#ciberdelincuencia" style="margin-left: 20px; color: blue;">más info</span>
       <div class="modal fade" id="ciberdelincuencia" tabindex="-1" aria-labelledby="ciberdelincuenciaLabel" aria-hidden="true">
-        <div class="modal-dialog tableCiber">
+        <div class="modal-dialog tableCiber" style="color: black;">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ciberdelincuencialLabel"><strong>Tipos de Ciberdelincuencia</strong></h5>
+              <h5 class="modal-title" id="ciberdelincuencialLabel"><strong  style="color: black;">Tipos de Ciberdelincuencia</strong></h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
-                <tbody>
+                <tbody class="tbody-color">
                   <tr>
                     <td>Phishing</td>
                     <td>El phishing es un tipo de ataque en el que los ciberdelincuentes se hacen pasar por entidades legítimas para engañar a las personas y obtener información confidencial, como contraseñas, números de tarjetas de crédito, etc.</td>
@@ -137,7 +138,6 @@
                   </tr>
                 </tbody>
               </table>
-              
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -165,7 +165,7 @@
               <div class="modal-dialog tableCiber">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="ciberdelincuentesLabel">Información adicional sobre Phishing</h5>
+                    <h5 class="modal-title" id="ciberdelincuentesLabel"  style="color: black;" >Ciberdelincuente</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -216,7 +216,7 @@
               <div class="modal-dialog tableCiber">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="capturarLabel">Información adicional sobre Phishing</h5>
+                    <h5 class="modal-title" id="capturarLabel" style="color: black;">Cómo se les captura</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -261,7 +261,7 @@
               <div class="modal-dialog tableCiber">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="motivosCiberdelitosLabel">Información adicional sobre Phishing</h5>
+                    <h5 class="modal-title" id="motivosCiberdelitosLabel"  style="color: black;">Motivos de los Ciberdelitos</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -307,7 +307,7 @@
               <div class="modal-dialog tableCiber">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="motivacionesCiberdelitosLabel">Información adicional sobre Phishing</h5>
+                    <h5 class="modal-title" id="motivacionesCiberdelitosLabel" style="color: black;">Motivaciones de los ciberdelincuentes</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -421,16 +421,16 @@
                   </thead>
                   <tbody>
                       <tr>
-                          <td>Selección de puertos</td>
-                          <td>El escáner de puertos TCP elige una lista de puertos TCP que desea escanear en el objetivo. Puede ser una selección de puertos específicos, un rango de puertos o incluso una lista predefinida de puertos comúnmente utilizados, como los puertos conocidos.</td>
+                          <td style="color: white;">Selección de puertos</td>
+                          <td style="color: white;">El escáner de puertos TCP elige una lista de puertos TCP que desea escanear en el objetivo. Puede ser una selección de puertos específicos, un rango de puertos o incluso una lista predefinida de puertos comúnmente utilizados, como los puertos conocidos.</td>
                       </tr>
                       <tr>
-                          <td>Envío de paquetes TCP</td>
-                          <td>Para cada puerto seleccionado, el escáner envía un paquete TCP al objetivo. El paquete contiene una solicitud para establecer una conexión TCP con el puerto objetivo. Dependiendo del tipo de escaneo utilizado, el escáner puede enviar diferentes tipos de paquetes TCP, como paquetes SYN, paquetes ACK o paquetes FIN.</td>
+                          <td style="color: white;">Envío de paquetes TCP</td>
+                          <td style="color: white;">Para cada puerto seleccionado, el escáner envía un paquete TCP al objetivo. El paquete contiene una solicitud para establecer una conexión TCP con el puerto objetivo. Dependiendo del tipo de escaneo utilizado, el escáner puede enviar diferentes tipos de paquetes TCP, como paquetes SYN, paquetes ACK o paquetes FIN.</td>
                       </tr>
                       <tr>
-                          <td>Análisis de las respuestas</td>
-                          <td>Después de enviar cada paquete TCP, el escáner espera una respuesta del objetivo. Según la respuesta recibida, el escáner puede determinar el estado del puerto escaneado. Las posibles respuestas incluyen:<br><br>
+                          <td style="color: white;">Análisis de las respuestas</td>
+                          <td style="color: white;">Después de enviar cada paquete TCP, el escáner espera una respuesta del objetivo. Según la respuesta recibida, el escáner puede determinar el estado del puerto escaneado. Las posibles respuestas incluyen:<br><br>
                               <ul>
                                   <li>Puerto abierto: Si el objetivo responde con un paquete SYN/ACK, significa que el puerto está abierto y listo para recibir conexiones.</li>
                                   <li>Puerto cerrado: Si el objetivo responde con un paquete de tipo RST (Reset), indica que el puerto está cerrado y no está aceptando conexiones.</li>
@@ -439,8 +439,8 @@
                           </td>
                       </tr>
                       <tr>
-                          <td>Interpretación de los resultados</td>
-                          <td>El escáner de puertos TCP interpreta las respuestas recibidas y registra los resultados del escaneo. Puede generar un informe que indique qué puertos están abiertos, cerrados o filtrados en el objetivo.</td>
+                          <td style="color: white;">Interpretación de los resultados</td>
+                          <td style="color: white;">El escáner de puertos TCP interpreta las respuestas recibidas y registra los resultados del escaneo. Puede generar un informe que indique qué puertos están abiertos, cerrados o filtrados en el objetivo.</td>
                       </tr>
                   </tbody>
                 </table>
@@ -454,7 +454,7 @@
     <div class="row featurette justify-content-center">
       <div class="col-md-7">
         <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>Escaneo de puertos UDP</strong></h4>
-        <p class="lead">
+        <p class="lead white-text">
             Es una técnica utilizada para descubrir qué puertos UDP están abiertos en un host o en una red. 
             A diferencia del escaneo de puertos TCP, que establece una conexión completa entre el escáner y el objetivo, el escaneo de puertos UDP se basa en el envío de paquetes UDP sin establecer una conexión previa.
             <table class="table lead">
@@ -466,24 +466,24 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Selección de puertos</td>
-                        <td>El escáner de puertos UDP elige una lista de puertos UDP que desea escanear en el objetivo. Puede ser una selección de puertos específicos, un rango de puertos o incluso una lista predefinida de puertos comúnmente utilizados.</td>
+                        <td style="color: white;">Selección de puertos</td>
+                        <td style="color: white;">El escáner de puertos UDP elige una lista de puertos UDP que desea escanear en el objetivo. Puede ser una selección de puertos específicos, un rango de puertos o incluso una lista predefinida de puertos comúnmente utilizados.</td>
                     </tr>
                     <tr>
-                        <td>Envío de paquetes UDP</td>
-                        <td>Para cada puerto seleccionado, el escáner envía un paquete UDP al objetivo. El paquete puede ser un paquete vacío o puede contener datos específicos, dependiendo del objetivo del escaneo.</td>
+                        <td style="color: white;">Envío de paquetes UDP</td>
+                        <td style="color: white;">Para cada puerto seleccionado, el escáner envía un paquete UDP al objetivo. El paquete puede ser un paquete vacío o puede contener datos específicos, dependiendo del objetivo del escaneo.</td>
                     </tr>
                     <tr>
-                        <td>Espera de respuestas</td>
-                        <td>Después de enviar cada paquete UDP, el escáner espera una respuesta del objetivo. Si el puerto está abierto, se espera que el objetivo responda con un paquete de respuesta. Si el puerto está cerrado o filtrado, es posible que no se reciba ninguna respuesta.</td>
+                        <td style="color: white;">Espera de respuestas</td>
+                        <td style="color: white;">Después de enviar cada paquete UDP, el escáner espera una respuesta del objetivo. Si el puerto está abierto, se espera que el objetivo responda con un paquete de respuesta. Si el puerto está cerrado o filtrado, es posible que no se reciba ninguna respuesta.</td>
                     </tr>
                     <tr>
-                        <td>Interpretación de las respuestas</td>
-                        <td>El escáner analiza las respuestas recibidas para determinar si el puerto escaneado está abierto, cerrado o filtrado. Por ejemplo, si se recibe una respuesta ICMP de "Destination Unreachable" o "Port Unreachable", indica que el puerto está cerrado. Si no se recibe ninguna respuesta después de un tiempo de espera, se puede considerar que el puerto está filtrado.</td>
+                        <td style="color: white;">Interpretación de las respuestas</td>
+                        <td style="color: white;">El escáner analiza las respuestas recibidas para determinar si el puerto escaneado está abierto, cerrado o filtrado. Por ejemplo, si se recibe una respuesta ICMP de "Destination Unreachable" o "Port Unreachable", indica que el puerto está cerrado. Si no se recibe ninguna respuesta después de un tiempo de espera, se puede considerar que el puerto está filtrado.</td>
                     </tr>
                     <tr>
-                        <td>Registro de los resultados</td>
-                        <td>El escáner registra los resultados del escaneo de puertos UDP, indicando qué puertos están abiertos, cerrados o filtrados en el objetivo.</td>
+                        <td style="color: white;">Registro de los resultados</td>
+                        <td style="color: white;">El escáner registra los resultados del escaneo de puertos UDP, indicando qué puertos están abiertos, cerrados o filtrados en el objetivo.</td>
                     </tr>
                 </tbody>
             </table>
@@ -591,10 +591,10 @@
             <div class="modal-dialog size-pop">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="ataquesredLabel">Ataques de Red</h1>
+                        <h1 class="modal-title fs-5" id="ataquesredLabel" style="color: black;">Ataques de Red</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-bodys">
                       <div class="table-responsive">
                         <table class="table table-striped text-left">
                           <thead>
@@ -667,10 +667,10 @@
               <div class="modal-dialog size-pop">
                   <div class="modal-content">
                       <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="protegeredLabel">Proteger una Red</h1>
+                          <h1 class="modal-title fs-5" id="protegeredLabel" style="color: black;">Proteger una Red</h1>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
+                      <div class="modal-bodys">
                         <table class="table table-bordered">
                           <thead>
                             <tr>
@@ -840,6 +840,6 @@
     
         <hr class="featurette-divider" style="margin-bottom: 50px;">
   </div>
-      
+</div>     
 </body>
 </html>

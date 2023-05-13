@@ -179,4 +179,13 @@ body{
     max-width: 800px;
   }
   
+  td {
+    color: black;
+  }
+
+  tr {
+    color: black;
+  }
+
+
 
