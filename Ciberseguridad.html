@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="HomeCiberseguridad.css">
+
+
+    
+    <title>Ciberseguridad</title>
+   
+</head>
+<header class="header-color">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">MEDAC</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Comparativa.html">OSI & TCP/IP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Ciberseguridad.html">Ciberseguridad</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<body>
+
+<!--DeeWeb / DarkWeb--> 
+    <div class="container" style="margin-top: 30px; margin-bottom: 30px;">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h4 style="margin-top: 20px; margin-bottom: 30px;"><strong>DeepWeb & DarkWeb</strong></h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card custom-card" style="background-color: rgb(248, 237, 253);">
+            <div class="card-body">
+              <h5 class="card-title">Deep Web</h5>
+              <p class="card-text lead">
+                Es una páginas web que no están indexadas por los motores de búsqueda comunes, lo que significa que no se pueden encontrar fácilmente utilizando herramientas de búsqueda tradicionales, como Google o Bing. 
+                Estas páginas pueden incluir contenido privado, como bases de datos, correos electrónicos protegidos, contenido detrás de un muro de pago, sistemas internos de empresas y otras áreas no públicas. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card custom-card">
+            <div class="card-body" style="background-color: rgb(248, 237, 253);">
+              <h5 class="card-title">Dark Web</h5>
+              <p class="card-text lead">
+                Es una parte de la Deep Web, pero se distingue por su naturaleza anónima y su contenido que se oculta deliberadamente. La Dark Web se accede utilizando redes superpuestas, como Tor (The Onion Router), que permiten a los usuarios mantener el anonimato. 
+                En la Dark Web, los usuarios pueden acceder a sitios web ocultos que no están disponibles a través de la web tradicional. 
+                A menudo, la Dark Web se asocia con actividades ilegales.             
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+
+
+<!--Ciber-->
+    <div class="container" style="margin-left: 500px;">
+      <div class="row">
+
+<!--Tipos de Ciberdelincuentes-->            
+    <div class="col-lg-4">
+      <div class="card-img tipos"></div>
+      <h4 class="fw-normal"><strong>Tipos de ciberdelincuencia</strong></h4>
+      <ul>
+        <li>Phishing</li>
+        <li>Malware</li>
+        <li>Ransomware</li>
+        <li>Spoofing</li>
+        <li>DDos</li>
+        <li>Ingeniería social</li>
+        <li>Pup's</li>
+      </ul>
+      <span data-bs-toggle="modal" data-bs-target="#ciberdelincuencia" style="margin-left: 20px; color: blue;">más info</span>
+      <div class="modal fade" id="ciberdelincuencia" tabindex="-1" aria-labelledby="ciberdelincuenciaLabel" aria-hidden="true">
+        <div class="modal-dialog tableCiber">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ciberdelincuencialLabel"><strong>Tipos de Ciberdelincuencia</strong></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>Phishing</td>
+                    <td>El phishing es un tipo de ataque en el que los ciberdelincuentes se hacen pasar por entidades legítimas para engañar a las personas y obtener información confidencial, como contraseñas, números de tarjetas de crédito, etc.</td>
+                  </tr>
+                  <tr>
+                    <td>Malware</td>
+                    <td>El malware se refiere a software malicioso diseñado para infiltrarse en sistemas informáticos sin el consentimiento del usuario. Puede incluir virus, gusanos, troyanos, ransomware y spyware, con el objetivo de dañar, robar datos o controlar los dispositivos afectados.</td>
+                  </tr>
+                  <tr>
+                    <td>Ransomware</td>
+                    <td>El ransomware es un tipo de malware que cifra los archivos de una víctima y exige un rescate (generalmente en criptomonedas) para desbloquearlos. Los ciberdelincuentes utilizan el ransomware para extorsionar a individuos o empresas.</td>
+                  </tr>
+                  <tr>
+                    <td>Spoofing</td>
+                    <td>El spoofing implica falsificar la identidad o la dirección de origen en comunicaciones electrónicas con el fin de engañar a los destinatarios y obtener información o privilegios no autorizados.</td>
+                  </tr>
+                  <tr>
+                    <td>DDoS (Ataque de denegación de servicio distribuido)</td>
+                    <td>En un ataque DDoS, los ciberdelincuentes inundan un sistema o una red con un gran volumen de tráfico malicioso desde múltiples fuentes, lo que provoca una sobrecarga y la indisponibilidad del servicio para los usuarios legítimos.</td>
+                  </tr>
+                  <tr>
+                    <td>Ingeniería social</td>
+                    <td>La ingeniería social es una táctica en la que los ciberdelincuentes manipulan psicológicamente a las personas para obtener información confidencial o persuadirlas a realizar acciones que puedan comprometer su seguridad. Puede involucrar el engaño, la manipulación emocional o la explotación de la confianza.</td>
+                  </tr>
+                  <tr>
+                    <td>PUPs (Programas Potencialmente No Deseados)</td>
+                    <td>Los PUPs son programas que se instalan en un dispositivo sin el conocimiento o consentimiento del usuario. Aunque no todos son maliciosos, suelen ser considerados no deseados debido a su comportamiento intrusivo, como mostrar anuncios no deseados o modificar la configuración del sistema.</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+<!--Ciberdelincuentes-->          
+          <div class="col-lg-4">
+            <div class="card-img ciberdelincuentes"></div>
+            <h4 class="fw-normal"><strong>Ciberdelincuentes</strong></h4>
+            <p class="lead">
+              <ul class="lead">
+                <li>Hackers</li>
+                <li>Grupos de ciberdelincuentes organizados</li>
+                <li>Estado-nación</li>
+                <li>Insiders</li>
+              </ul>
+                
+            </p>
+            <span data-bs-toggle="modal" data-bs-target="#ciberdelincuentes"  style="margin-left: 35px; color: blue;">más info</span>
+            <div class="modal fade" id="ciberdelincuentes" tabindex="-1" aria-labelledby="ciberdelincuentesLabel" aria-hidden="true">
+              <div class="modal-dialog tableCiber">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="ciberdelincuentesLabel">Información adicional sobre Phishing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="lead">
+                      <table class="table table-bordered">
+                        <tbody>
+                          <tr>
+                            <td>Hackers</td>
+                            <td>Son individuos con habilidades técnicas avanzadas en el ámbito de la informática y la seguridad. Pueden utilizar sus conocimientos para acceder a sistemas o redes de manera no autorizada, robar datos, realizar ataques cibernéticos o buscar vulnerabilidades en sistemas para informarlas o explotarlas.</td>
+                          </tr>
+                          <tr>
+                            <td>Grupos de ciberdelincuentes organizados</td>
+                            <td>Grupos delictivos que se dedican a actividades ilegales en línea, como el robo de identidad, la distribución de malware, el fraude financiero, el tráfico de datos o el cibersabotaje. Estos grupos suelen operar de manera estructurada y coordinada.</td>
+                          </tr>
+                          <tr>
+                            <td>Estado-nación</td>
+                            <td>Algunos gobiernos y agencias de inteligencia pueden llevar a cabo actividades cibernéticas con fines políticos, económicos o militares. Estas acciones pueden incluir espionaje, sabotaje, robo de propiedad intelectual o ciberataques a infraestructuras críticas.</td>
+                          </tr>
+                          <tr>
+                            <td>Insiders</td>
+                            <td>Son personas que tienen acceso legítimo a sistemas o redes y aprovechan esa posición para cometer actos maliciosos. Pueden ser empleados descontentos, exempleados con acceso no revocado, contratistas o socios comerciales que traicionan la confianza.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--Cómo se les captura-->    
+          <div class="col-lg-4">
+            <div class="card-img captura"></div>
+            <h4 class="fw-normal"><strong>Cómo se les captura</strong> </h4>
+            <p>
+                <ul class="lead">
+                  <li>Rastreo forense digital</li>
+                  <li>Trampas cibernéticas</li>
+                  <li>oordinación internacional</li>
+                </ul>
+            </p>
+            <span data-bs-toggle="modal" data-bs-target="#capturar" style="margin-left: 80px; color: blue;">más info</span>
+            <div class="modal fade" id="capturar" tabindex="-1" aria-labelledby="capturarLabel" aria-hidden="true">
+              <div class="modal-dialog tableCiber">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="capturarLabel">Información adicional sobre Phishing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td>Rastreo forense digital</td>
+                          <td>Análisis exhaustivo de evidencia digital, como registros de servidores, direcciones IP y registros de transacciones, para identificar y ubicar a los responsables.</td>
+                        </tr>
+                        <tr>
+                          <td>Trampas cibernéticas</td>
+                          <td>Creación de señuelos virtuales, como sitios web falsos o cuentas de correo electrónico, para atraer a los ciberdelincuentes y exponer su identidad o ubicación.</td>
+                        </tr>
+                        <tr>
+                          <td>Coordinación internacional</td>
+                          <td>Colaboración entre agencias y fuerzas de seguridad de diferentes países para rastrear y detener a los ciberdelincuentes a través de investigaciones conjuntas.</td>
+                        </tr>
+                      </tbody>
+                    </table>                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--Motivos Ciberdelitos-->
+          <div class="col-lg-4"  style="margin-left: 180px;">
+            <div class="card-img motivos"></div>
+            <h4 class="fw-normal"><strong>Motivos de Ciberdelito</strong>s</h4>
+            <p>
+                <ul class="lead">
+                  <li>Influencia de grupos criminales</li>
+                  <li>Desigualdad social</li>
+                  <li>Ambición económica</li>
+                </ul>
+            </p>
+            <span data-bs-toggle="modal" data-bs-target="#motivosCiberdelitos" style="margin-left: 55px; color: blue;">más info</span>
+            <div class="modal fade" id="motivosCiberdelitos" tabindex="-1" aria-labelledby="motivosCiberdelitosLabel" aria-hidden="true">
+              <div class="modal-dialog tableCiber">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="motivosCiberdelitosLabel">Información adicional sobre Phishing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td>Influencia de grupos criminales</td>
+                          <td>La presión o coerción ejercida por organizaciones delictivas puede llevar a individuos a cometer actos criminales.</td>
+                        </tr>
+                        <tr>
+                          <td>Desigualdad social</td>
+                          <td>La brecha entre ricos y pobres puede generar resentimiento y tensiones que desembocan en delitos motivados por la envidia o el deseo de igualdad económica.</td>
+                        </tr>
+                        <tr>
+                          <td>Ambición económica</td>
+                          <td>El deseo de obtener beneficios financieros puede motivar delitos como el fraude, la corrupción o el robo a gran escala.</td>
+                        </tr>
+                      </tbody>
+                    </table>                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--Motivaciones de los ciberdelincuentes-->
+          <div class="col-lg-4" style="margin-bottom: 30px; margin-top: 20px;">
+            <div class="card-img motivaciones"></div>
+            <h4 class="fw-normal"><strong>Motivaciones de Ciberdelincuente</strong>s</h4>
+            <p>
+                <ul class="lead">
+                  <li>Lucro financiero</li>
+                  <li>Espionaje y sabotaje</li>
+                  <li>Activismo político</li>
+                  <li>Diversión y notoriedad</li>
+                </ul>
+            </p>
+            <span data-bs-toggle="modal" data-bs-target="#motivacionesCiberdelitos" style="margin-left: 75px; color: blue;">más info</span>
+            <div class="modal fade" id="motivacionesCiberdelitos" tabindex="-1" aria-labelledby="motivacionesCiberdelitosLabel" aria-hidden="true">
+              <div class="modal-dialog tableCiber">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="motivacionesCiberdelitosLabel">Información adicional sobre Phishing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td>Lucro financiero</td>
+                          <td>Obtener ganancias económicas a través de actividades como el robo de información personal, fraude con tarjetas de crédito y extorsión cibernética.</td>
+                        </tr>
+                        <tr>
+                          <td>Espionaje y sabotaje</td>
+                          <td>Realizar ciberataques en nombre de gobiernos, organizaciones o grupos para obtener información sensible, espiar o interrumpir infraestructuras críticas.</td>
+                        </tr>
+                        <tr>
+                          <td>Activismo político</td>
+                          <td>Llevar a cabo ciberataques para promover una causa política o social específica, como la divulgación de información confidencial o el bloqueo de servicios en línea.</td>
+                        </tr>
+                        <tr>
+                          <td>Diversión y notoriedad</td>
+                          <td>Realizar actividades ilegales en línea simplemente por desafío, diversión o para obtener reconocimiento dentro de las comunidades de hackers.</td>
+                        </tr>
+                      </tbody>
+                    </table>                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>  
+
+        <hr class="featurette-divider">
+        
+<!-- Capas de modelo OSI (Software / Hardware) -->
+    <div style="margin-left: 250px;">
+      <div class="row featurette" style="margin: 10px;">
+        <div class="col-md-12">
+          <a href="/Comparativa.html#modeloOsi" style="text-decoration: none; color: black;">
+            <h4 class="featurette-heading fw-normal lh-1" style="margin-left: 600px;" id="ModeloOsiOperativo"><strong>Modelo OSI (Software / Hardware)</strong></h4>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row" id="software">   
+            <div class="col-md-12 text-center">Software</div>
+          </div>
+          <div class="row" id="fila1">   
+            <div class="col-md-12 text-center">Capa de Aplicación</div>
+          </div>
+          <div class="row" id="fila2">
+            <div class="col-md-12 text-center">Capa de Presentación</div>
+          </div>
+          <div class="row" id="fila3">
+            <div class="col-md-12 text-center">Capa de Sesión</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row" id="hardware">
+            <div class="col-md-12 text-center">Hardware</div>
+          </div>
+          <div class="row" id="fila4">
+            <div class="col-md-12 text-center">Capa de Transporte</div>
+          </div>
+          <div class="row" id="fila5">
+            <div class="col-md-12 text-center">Capa de Red</div>
+          </div>
+          <div class="row" id="fila6">
+            <div class="col-md-12 text-center">Capa de Enlace de Datos</div>
+          </div>
+          <div class="row" id="fila7">
+            <div class="col-md-12 text-center">Capa Física</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    
+<!--Escaneo de Puertos-->    
+    <div class="row featurette justify-content-center">
+      <div class="col-md-7">
+        <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>Escaneo de puertos</strong></h4>
+        <div class="p-3 ">
+          <p class="lead text-center">
+            El escaneo de puertos es una técnica utilizada para descubrir qué servicios y aplicaciones están en ejecución en un dispositivo conectado a una red. Consiste en enviar una serie de paquetes de datos a diferentes puertos de un dispositivo y analizar las respuestas para determinar si un puerto está abierto o cerrado.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">  
+
+<!--TCP Escaneo de Puertos-->    
+        <div class="row featurette justify-content-center">
+          <div class="col-md-7">
+            <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>Escaneo de puertos TCP</strong></h4>
+              <p class="lead text-center">
+                Es una técnica utilizada para determinar qué puertos TCP están abiertos en un host o en una red. Permite identificar los servicios y aplicaciones que están en ejecución en un sistema objetivo.
+              </p>
+              <div class="table-container" style="margin-left: 10px;">
+                <table class="table lead">
+                  <thead>
+                      <tr>
+                          <th>Etapa</th>
+                          <th>Descripción</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Selección de puertos</td>
+                          <td>El escáner de puertos TCP elige una lista de puertos TCP que desea escanear en el objetivo. Puede ser una selección de puertos específicos, un rango de puertos o incluso una lista predefinida de puertos comúnmente utilizados, como los puertos conocidos.</td>
+                      </tr>
+                      <tr>
+                          <td>Envío de paquetes TCP</td>
+                          <td>Para cada puerto seleccionado, el escáner envía un paquete TCP al objetivo. El paquete contiene una solicitud para establecer una conexión TCP con el puerto objetivo. Dependiendo del tipo de escaneo utilizado, el escáner puede enviar diferentes tipos de paquetes TCP, como paquetes SYN, paquetes ACK o paquetes FIN.</td>
+                      </tr>
+                      <tr>
+                          <td>Análisis de las respuestas</td>
+                          <td>Después de enviar cada paquete TCP, el escáner espera una respuesta del objetivo. Según la respuesta recibida, el escáner puede determinar el estado del puerto escaneado. Las posibles respuestas incluyen:<br><br>
+                              <ul>
+                                  <li>Puerto abierto: Si el objetivo responde con un paquete SYN/ACK, significa que el puerto está abierto y listo para recibir conexiones.</li>
+                                  <li>Puerto cerrado: Si el objetivo responde con un paquete de tipo RST (Reset), indica que el puerto está cerrado y no está aceptando conexiones.</li>
+                                  <li>Puerto filtrado: Si el escáner no recibe ninguna respuesta o recibe un paquete ICMP (como "Destination Unreachable") o un paquete TCP de tipo RST, puede indicar que el puerto está filtrado por un firewall o algún otro mecanismo de seguridad.</li>
+                              </ul>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>Interpretación de los resultados</td>
+                          <td>El escáner de puertos TCP interpreta las respuestas recibidas y registra los resultados del escaneo. Puede generar un informe que indique qué puertos están abiertos, cerrados o filtrados en el objetivo.</td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>  
+          </div>
+      </div>
+
+    <hr class="featurette-divider">
+
+<!--UDP Escaneo de Puertos-->    
+    <div class="row featurette justify-content-center">
+      <div class="col-md-7">
+        <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>Escaneo de puertos UDP</strong></h4>
+        <p class="lead">
+            Es una técnica utilizada para descubrir qué puertos UDP están abiertos en un host o en una red. 
+            A diferencia del escaneo de puertos TCP, que establece una conexión completa entre el escáner y el objetivo, el escaneo de puertos UDP se basa en el envío de paquetes UDP sin establecer una conexión previa.
+            <table class="table lead">
+                <thead>
+                    <tr>
+                        <th>Etapa</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Selección de puertos</td>
+                        <td>El escáner de puertos UDP elige una lista de puertos UDP que desea escanear en el objetivo. Puede ser una selección de puertos específicos, un rango de puertos o incluso una lista predefinida de puertos comúnmente utilizados.</td>
+                    </tr>
+                    <tr>
+                        <td>Envío de paquetes UDP</td>
+                        <td>Para cada puerto seleccionado, el escáner envía un paquete UDP al objetivo. El paquete puede ser un paquete vacío o puede contener datos específicos, dependiendo del objetivo del escaneo.</td>
+                    </tr>
+                    <tr>
+                        <td>Espera de respuestas</td>
+                        <td>Después de enviar cada paquete UDP, el escáner espera una respuesta del objetivo. Si el puerto está abierto, se espera que el objetivo responda con un paquete de respuesta. Si el puerto está cerrado o filtrado, es posible que no se reciba ninguna respuesta.</td>
+                    </tr>
+                    <tr>
+                        <td>Interpretación de las respuestas</td>
+                        <td>El escáner analiza las respuestas recibidas para determinar si el puerto escaneado está abierto, cerrado o filtrado. Por ejemplo, si se recibe una respuesta ICMP de "Destination Unreachable" o "Port Unreachable", indica que el puerto está cerrado. Si no se recibe ninguna respuesta después de un tiempo de espera, se puede considerar que el puerto está filtrado.</td>
+                    </tr>
+                    <tr>
+                        <td>Registro de los resultados</td>
+                        <td>El escáner registra los resultados del escaneo de puertos UDP, indicando qué puertos están abiertos, cerrados o filtrados en el objetivo.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="container">
+              <div class="row" style="margin-left: 200px; margin-top: 20px; margin-bottom: 30px;" >
+                  <div class="col-md-6">
+                      <img src="/img/UDP-img2.png" alt="Imagen1" width="300px" height="200px">
+                  </div>
+                  <div class="col-md-6">
+                      <img src="/img/UDP-img1.png" alt="Imagen2" width="300px" height="200px">
+              </div>
+            </div>
+        </p>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+<!--ARP-->    
+        <div class="row featurette justify-content-center">
+          <div class="col-md-7">
+            <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>Protocolo ARP (Address Resolution Protocol)</strong></h4>
+            <p class="lead">
+                <ul  class="lead">
+                    <li>
+                        <strong>Paso 1:</strong> 
+                        El dispositivo que desea realizar el escaneo ARP (llamado "host emisor") envía una solicitud de ARP en forma de un paquete de broadcast en la red local. 
+                        El paquete contiene la dirección IP del host emisor y su dirección MAC.
+                    </li>
+                    <li>
+                        <strong>Paso 2:</strong> 
+                        Todos los dispositivos en la red reciben el paquete de broadcast ARP y comprueban si la dirección IP solicitada coincide con su propia dirección IP.
+                    </li>
+                    <li>
+                        <strong>Paso 3:</strong> 
+                        El dispositivo que tiene la dirección IP coincidente (llamado "host objetivo") responde al host emisor con un paquete ARP que contiene su dirección MAC.
+                    </li>
+                    <li>
+                        <strong>Paso 4:</strong> 
+                        El host emisor recibe la respuesta del host objetivo y actualiza su tabla ARP con la dirección IP y la dirección MAC correspondientes.
+                    </li>
+                    <li>
+                        <strong>Paso 5:</strong> 
+                        Si el host emisor necesita comunicarse con el host objetivo en el futuro, buscará en su tabla ARP la dirección MAC asociada a la dirección IP del host objetivo. 
+                        Si la entrada existe en la tabla ARP, se utilizará la dirección MAC para enviar los paquetes directamente al host objetivo. 
+                        Si no existe una entrada en la tabla ARP, se repetirá el escaneo ARP para actualizar la tabla antes de establecer la comunicación.
+                    </li>
+                </ul>
+            </p>
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+
+<!--NMap-->        
+    <div class="row featurette justify-content-center">
+      <div class="col-md-7">
+        <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>NMap (Network Mapper)</strong></h4>
+        <p class="lead">
+            
+        </p>
+        <div id="columnas-info" class="row lead">
+            <div class="col-md-4 columna lead">
+                <img src="/img/nmap-puertos.png" alt="Imagen 1" width="300px" height="200px" style="margin-bottom: 30px; margin-top: 20px;">
+                <p>Escaneo de puertos:</p>
+                <p>Nmap permite realizar escaneos de puertos en un host o en una red completa para identificar los puertos abiertos y los servicios que se están ejecutando en esos puertos. Puedes utilizar comandos como "nmap -p <puertos> <objetivo>" para especificar los puertos que deseas escanear en un objetivo específico. Además, Nmap ofrece diferentes técnicas de escaneo, como el escaneo TCP SYN, el escaneo TCP connect, el escaneo UDP y el escaneo de puertos en masa, para adaptarse a diferentes escenarios y requisitos.</p>
+                </div>
+            <div class="col-md-4 columna lead">
+                <img src="/img/nmap-deteccion.png" alt="Imagen 2" width="300px" height="200px" style="margin-bottom: 30px; margin-top: 20px;">
+                <p>Detección de sistemas operativos:</p>
+                <p>Nmap puede ayudarte a determinar el sistema operativo que se ejecuta en un host objetivo. Utiliza técnicas como el análisis de respuestas de paquetes y las huellas digitales de la pila TCP/IP para identificar características específicas de los sistemas operativos. Puedes utilizar la opción "-O" en Nmap para habilitar la detección de sistemas operativos y obtener información sobre el sistema operativo del objetivo.</p>
+            </div>
+            <div class="col-md-4 columna lead">
+                <img src="/img/nmap-puertos.png" alt="Imagen 3" width="300px" height="200px" style="margin-bottom: 30px; margin-top: 20px;">
+                <p>Análisis de redes:</p>
+                <p>Nmap no solo se utiliza para escanear hosts individuales, sino también para realizar un análisis de redes más amplio. Puedes utilizar comandos como "nmap -sn "rango de direcciones IP" para realizar un escaneo de hosts vivos y determinar qué hosts están activos en una red determinada. Además, Nmap también ofrece capacidades avanzadas de detección de dispositivos, como la detección de subredes, el seguimiento de rutas de paquetes y la detección de sistemas de detección de intrusiones (IDS) y firewalls.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <hr class="featurette-divider">
+
+<!--Principales ataques de red-->
+  <div class="row featurette justify-content-center">
+    <div class="col-md-7">
+      <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>Tipos de ataques de red</strong></h4>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="lead">
+            <ul class="lead">
+              <li>Ataques de denegación de servicio (DoS)</li>
+              <li>Ataques de intermediario (Man-in-the-Middle, MitM)</li>
+              <li>Ataques de inyección</li>
+              <li>Ataques de phishing</li>
+              <li>Ataques de ransomware</li>
+              <li>Ataques de intrusión</li>
+            </ul> 
+          </p>
+        </div>
+        <div class="col-md-6 text-end">
+          <img class="popup-img custom-size" src="https://static.dw.com/image/61748967_303.jpg" alt="Tipos de ataque de red" data-bs-toggle="modal" data-bs-target="#ataquesred">
+          <p style="color: rgb(183, 60, 244); margin-top: 10px;">⇡ Descripción de tipos de ataques de red ↑</p>
+          <div class="modal fade" id="ataquesred" tabindex="-1" aria-labelledby="ataquesredLabel" aria-hidden="true">
+            <div class="modal-dialog size-pop">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ataquesredLabel">Ataques de Red</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="table-responsive">
+                        <table class="table table-striped text-left">
+                          <thead>
+                            <tr>
+                              <th>Tipo de Ataque</th>
+                              <th>Descripción</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Ataques de denegación de servicio (DoS)</td>
+                              <td>Estos ataques tienen como objetivo abrumar un sistema o red con un tráfico o solicitudes excesivas, lo que resulta en una pérdida de servicio legítimo. Los ataques de denegación de servicio pueden incluir inundaciones de paquetes, sobrecarga de recursos o explotación de vulnerabilidades en los protocolos de red.</td>
+                            </tr>
+                            <tr>
+                              <td>Ataques de intermediario (Man-in-the-Middle, MitM)</td>
+                              <td>En este tipo de ataque, un atacante se inserta en la comunicación entre dos partes legítimas y puede interceptar, modificar o suplantar el tráfico de datos. Esto permite al atacante espiar la comunicación, robar información confidencial o realizar ataques adicionales.</td>
+                            </tr>
+                            <tr>
+                              <td>Ataques de inyección</td>
+                              <td>Estos ataques aprovechan la falta de validación o filtrado de datos de entrada en aplicaciones web o sistemas de bases de datos. Los ataques de inyección pueden incluir inyección de SQL, inyección de comandos o inyección de código, y permiten al atacante ejecutar comandos maliciosos o acceder a datos no autorizados.</td>
+                            </tr>
+                            <tr>
+                              <td>Ataques de phishing</td>
+                              <td>Los ataques de phishing implican el uso de correos electrónicos, mensajes de texto u otras formas de comunicación engañosa para hacer que los usuarios revelen información confidencial, como contraseñas o datos bancarios. Los atacantes suelen hacerse pasar por entidades de confianza para engañar a las víctimas.</td>
+                            </tr>
+                            <tr>
+                              <td>Ataques de ransomware</td>
+                              <td>El ransomware es un tipo de malware que cifra los archivos o bloquea el acceso a un sistema y luego exige un rescate a cambio de restaurar el acceso. Estos ataques pueden propagarse a través de la red y causar daños significativos a los sistemas y datos de una organización.</td>
+                            </tr>
+                            <tr>
+                              <td>Ataques de intrusión</td>
+                              <td>Los ataques de intrusión implican la infiltración no autorizada en una red o sistema con el fin de obtener acceso privilegiado, robar información o realizar actividades maliciosas. Los atacantes pueden utilizar vulnerabilidades de seguridad, contraseñas débiles o técnicas de ingeniería social para llevar a cabo estos ataques.</td>
+                            </tr>
+                          </tbody>
+                        </table>      
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+        <hr class="featurette-divider">
+  
+<!--Proteger red wifi-->    
+    <div class="row featurette justify-content-center">
+      <div class="col-md-7">
+        <h4 class="featurette-heading fw-normal lh-1 text-center"><strong>¿Cómo se puede proteger una red wifi?</strong></h4>
+        <div class="row">
+          <div class="col-md-6 order-md-2" style="margin-top: 20px;">
+            <ul class="lead">
+              <li>Cambiar el nombre de la red (SSID)</li>
+              <li>Establecer una contraseña segura</li>
+              <li>Utilizar cifrado WPA2 o WPA3</li>
+              <li>Deshabilitar el SSID broadcast</li>
+              <li>Filtrado de direcciones MAC</li>
+              <li>Habilitar firewall</li>
+            </ul> 
+          </div>
+          <div class="col-md-6 order-md-1">
+            <img class="popup-img custom-size" src="https://www.rastreator.com/wp-content/uploads/2019/07/proteger-wifi-rastreator-1.jpg" alt="red wifi" data-bs-toggle="modal" data-bs-target="#protegered">
+            <p style="color: rgb(183, 60, 244); margin-top: 10px;">⇡ Descripción para proteger una red Wifi ↑</p>
+            <div class="modal fade" id="protegered" tabindex="-1" aria-labelledby="protegeredLabel" aria-hidden="true">
+              <div class="modal-dialog size-pop">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="protegeredLabel">Proteger una Red</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Medida de seguridad</th>
+                              <th>Descripción</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Cambiar el nombre de la red (SSID)</td>
+                              <td>Modifica el nombre de tu red Wi-Fi para evitar revelar información personal o identificable. Evita utilizar nombres relacionados con tu dirección o nombre de empresa.</td>
+                            </tr>
+                            <tr>
+                              <td>Establecer una contraseña segura</td>
+                              <td>Utiliza una contraseña fuerte y única para tu red Wi-Fi. Combina letras mayúsculas y minúsculas, números y caracteres especiales. Evita contraseñas comunes o predecibles.</td>
+                            </tr>
+                            <tr>
+                              <td>Utilizar cifrado WPA2 o WPA3</td>
+                              <td>Asegúrate de que tu red Wi-Fi esté configurada con cifrado WPA2 (Wi-Fi Protected Access 2) o WPA3, ya que son los protocolos más seguros actualmente. Evita el uso de WEP (Wired Equivalent Privacy), ya que es vulnerable.</td>
+                            </tr>
+                            <tr>
+                              <td>Deshabilitar el SSID broadcast</td>
+                              <td>Puedes ocultar el nombre de tu red Wi-Fi desactivando la transmisión del SSID. Esto dificulta que los atacantes encuentren tu red, pero ten en cuenta que esta medida no proporciona una protección completa.</td>
+                            </tr>
+                            <tr>
+                              <td>Filtrado de direcciones MAC</td>
+                              <td>Configura tu enrutador para que solo acepte conexiones de dispositivos cuyas direcciones MAC estén en una lista blanca predefinida. Esto permite controlar qué dispositivos pueden acceder a tu red Wi-Fi.</td>
+                            </tr>
+                            <tr>
+                              <td>Habilitar firewall</td>
+                              <td>Activa el firewall en tu enrutador para filtrar el tráfico no deseado y proteger tu red de posibles ataques.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <hr class="featurette-divider">
+
+<!--IDOR-->    
+        <div class="row featurette justify-content-center">
+          <div class="col-md-7">
+            <h4 class="featurette-heading fw-normal lh-1 text-center"  style="margin-top: 20px;"><strong>IDOR (Insecure Direct Object References) </strong></h4>
+            <p class="lead" style="margin-top: 20px;">
+                Son un tipo de vulnerabilidad de seguridad que ocurre cuando una aplicación web expone referencias directas a objetos internos sin la debida autenticación o autorización. 
+                En este tipo de vulnerabilidad, un atacante puede acceder y manipular recursos protegidos o información confidencial sin tener los privilegios adecuados.
+                <br>
+                La explotación de una vulnerabilidad IDOR implica encontrar y aprovechar referencias directas a objetos internos, como identificadores numéricos, nombres de archivo o cualquier otro identificador único. 
+                Si la aplicación no realiza una verificación de autorización adecuada, un atacante puede modificar estos identificadores y acceder a recursos que no debería tener permitido ver o modificar.
+            </p>
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+
+<!--SQL Injection-->    
+        <div class="row featurette justify-content-center">
+          <div class="col-md-7">
+            <h4 class="featurette-heading fw-normal lh-1 text-center" style="margin-top: 20px;"><strong>¿En qué consiste el SQL injection</strong>?</h4>
+            <p class="lead" style="margin-top: 20px;">
+                Es una vulnerabilidad de seguridad común que se produce cuando los atacantes aprovechan la falta de validación o escape adecuado de datos de entrada en una aplicación web que utiliza consultas SQL para interactuar con una base de datos. 
+                Con esta vulnerabilidad, los atacantes pueden insertar y ejecutar código SQL malicioso dentro de las consultas existentes, lo que les permite manipular la base de datos, acceder a información confidencial, modificar o eliminar datos, o incluso obtener el control total del sistema.
+                <br>
+                Se produce cuando la aplicación web no valida o filtra correctamente los datos proporcionados por los usuarios antes de incluirlos en las consultas SQL. Esto permite a los atacantes manipular las consultas y lograr que la base de datos ejecute código no deseado. 
+                Los puntos vulnerables comunes donde se puede aprovechar el SQL injection incluyen formularios de inicio de sesión, campos de búsqueda, parámetros de URL o cualquier entrada de usuario que se incluya directamente en una consulta SQL.
+            </p>
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+
+<!--Ataque XSS-->    
+        <div class="row featurette justify-content-center">
+          <div class="col-md-7">
+            <h4 class="featurette-heading fw-normal lh-1 text-center" style="margin-top: 20px;"><strong>¿En qué consiste el ataque XSS</strong>?</h4>
+            <p class="lead" style="margin-top: 20px;">
+                Es una técnica común utilizada por los atacantes para inyectar y ejecutar código malicioso en páginas web visitadas por otros usuarios. 
+                El objetivo principal de un ataque XSS es aprovechar la falta de validación adecuada de los datos de entrada en una aplicación web y engañar al navegador de un usuario para que ejecute código malicioso.
+
+                Existen tres tipos principales de ataques XSS:
+
+                <p id="columnas-info" class="row lead" style="margin-top: 20px;">
+                    <span class="col-md-4">
+                        <strong>XSS Reflejado (Reflected XSS):</strong>
+                        En este tipo de ataque, el código malicioso es enviado al servidor a través de una solicitud HTTP, y luego el servidor refleja este código de vuelta al navegador del usuario en una respuesta. 
+                        El código se ejecuta en el contexto del navegador del usuario cuando visualiza la respuesta.
+                    </span>
+                    <span class="col-md-4">
+                        <strong>XSS Persistente (Stored XSS):</strong>
+                        También conocido como XSS almacenado, este tipo de ataque implica que el código malicioso se guarda en el servidor web y se muestra a los usuarios cuando acceden a una página en particular. 
+                        El código persiste en la página web y se ejecuta cada vez que un usuario la visita.
+                    </span>
+                    <span class="col-md-4">
+                        <strong>DOM-based XSS:</strong>
+                        En este tipo de ataque, la inyección de código malicioso afecta al Document Object Model (DOM) de una página web. El código se ejecuta en el lado del cliente, manipulando la estructura del DOM y realizando acciones no deseadas.
+                    </span>
+                </p>
+            </p>
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+
+<!--Ingeniería social-->    
+  <div class="row featurette justify-content-center">
+    <div class="col-md-7">
+      <h4 class="featurette-heading fw-normal lh-1 text-center" style="margin-top: 20px;"><strong>¿Cómo realizan hackeos por ingeniería social?</strong></h4>
+        <p class="lead" style="margin-top: 20px;">
+            Es una técnica utilizada por los atacantes para manipular psicológicamente a las personas y obtener acceso a información confidencial o sistemas protegidos. 
+            <ul class="lead">
+                <li>Phishing</li>
+                <li>Ingeniería social telefónica</li>
+                <li>Ataques de pretextos</li>
+                <li>Dumpster Diving</li>
+                <li>Spear phishing</li>
+            </ul>
+        </p>
+    </div>
+  </div>
+
+    
+        <hr class="featurette-divider">
+
+<!--Autenticación Multifactor-->    
+        <div class="row featurette justify-content-center">
+          <div class="col-md-7">
+            <h4 class="featurette-heading fw-normal lh-1 text-center" style="margin-top: 20px;"><strong>¿En qué consiste la autenticación multifactor?</strong></h4>
+            <p class="lead" style="margin-top: 20px;">
+                Es un método de seguridad que requiere que los usuarios proporcionen más de una forma de autenticación para verificar su identidad y acceder a un sistema, servicio o dispositivo. En lugar de depender únicamente de una contraseña, la autenticación multifactor agrega capas adicionales de seguridad para garantizar un nivel más alto de protección. Los elementos comunes utilizados en la autenticación multifactor incluyen:
+                <ul class="lead">
+                    <li> Contraseña: Es la primera capa de autenticación y puede ser una combinación de letras, números y caracteres especiales. La contraseña es algo que el usuario conoce.</li>
+                    <li>Factor físico: Esta capa de autenticación implica el uso de un dispositivo físico que el usuario posee, como una tarjeta inteligente, una llave de seguridad USB o un token de seguridad. El dispositivo físico es algo que el usuario tiene.</li>
+                    <li>Biometría: Este factor se basa en características únicas del usuario, como huellas dactilares, reconocimiento facial, voz o escaneo de retina. La biometría es algo que el usuario es.</li>
+                </ul>
+                     
+            </p>
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+
+<!--Credential Stuffing-->    
+      <div class="row featurette justify-content-center">
+        <div class="col-md-7">
+          <h4 class="featurette-heading fw-normal lh-1 text-center" style="margin-top: 20px;"><strong>¿Qué es el Credential Stuffing</strong>?</h4>
+            <p class="lead" style="margin-top: 20px;">
+                Es una técnica utilizada por los ciberdelincuentes para obtener acceso no autorizado a cuentas en línea al aprovechar el reuso de contraseñas. 
+                Consiste en utilizar combinaciones de nombres de usuario y contraseñas filtradas de violaciones de datos anteriores e intentar iniciar sesión en diferentes servicios en línea utilizando esas credenciales. 
+                Los atacantes automatizan este proceso utilizando programas para probar múltiples combinaciones de credenciales a gran velocidad, con el objetivo de encontrar cuentas vulnerables y acceder a ellas. 
+                Es fundamental utilizar contraseñas únicas y seguras en todos los servicios en línea y activar la autenticación multifactor para protegerse contra este tipo de ataque.
+            </p>
+          </div>
+        </div>
+    
+        <hr class="featurette-divider" style="margin-bottom: 50px;">
+  </div>
+      
+</body>
+</html>

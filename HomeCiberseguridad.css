@@ -1,0 +1,181 @@
+/*Ciberseguridad*/
+
+* {
+  font-family: monospace;
+}
+
+.header-color {
+  background-color: #aacffa;
+}
+
+body{
+  background-color: #e0e9f4;
+}  
+
+.card-img {
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    background-color: #87CEFA;
+  }
+
+    .card-img.tipos {
+        background-image: url('https://esemanal.mx/revista/wp-content/uploads/2023/01/CHECKP-780x470.jpg');  
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .card-img.ciberdelincuentes {
+        background-image: url('https://derechodelared.com/wp-content/uploads/2020/05/hacker-3342696_1920.jpg');
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .card-img.captura {
+        background-image: url('https://d3t4nwcgmfrp9x.cloudfront.net/upload/ciberdelincuentes-venden-acceso-a-empresas-a-traves-dark-web-desde-1900-euros-643x342.jpg');
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+  
+    .card-img.motivos {
+        background-image: url('https://imagenes.20minutos.es/files/image_990_v3/files/fp/uploads/imagenes/2022/05/23/estafadores-smishing.r_d.339-382.jpeg');
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+  
+    .card-img.motivaciones {
+        background-image: url('https://elperiodicodelaenergia.com/wp-content/uploads/2020/04/ciberdelincuencia-.jpg');
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+  
+
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+  }
+
+  .custom-heading {
+    margin-top: 5000px;
+  }
+
+  #fila1 {
+    background-color: #ffcccc; 
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 250px;
+
+  }
+
+  #fila2 {
+    background-color: #ccffcc; 
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 250px;
+
+  }
+
+  #fila3 {
+    background-color: #ccccff; 
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 250px;
+
+  }
+
+  #fila4 {
+    background-color: #ffffcc; 
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+
+  }
+
+  #fila5 {
+    background-color: #ffccff; 
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+
+  }
+
+  #fila6 {
+    background-color: #ccffff; 
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+
+  }
+
+  #fila7 {
+    background-color: #f8c8b8d4; 
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+
+  }
+
+  #software {
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: 20px;   
+  }
+
+  #hardware {
+    width: 450px;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;   
+  }
+
+  .custom-size {
+    width: 288px; 
+    height: 243px; 
+    border-radius: 15%;
+  }
+
+  .custom-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .size-pop {
+    max-width: 60%;
+  }
+  
+  table.text-left {
+    text-align: left;
+    
+  }
+  
+  .tableCiber {
+    max-width: 800px;
+  }
+  
+

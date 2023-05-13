@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="HomeComparativa.css">
+
+
+    
+    <title>comparacion de OSI y TCP/IP</title>
+   
+</head>
+
+<header class="header-color">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">MEDAC</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Comparativa.html">OSI & TCP/IP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Ciberseguridad.html">Ciberseguridad</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <div class="container text-center">
+    <h1 id="comparacion">Comparación OSI vs TCP/IP</h1>
+    <div class="row">
+<!--OSI-->
+        <div class="col-md-6">
+          <h2 data-bs-toggle="modal" data-bs-target="#modalOsi" id="modeloOsi">Modelo OSI</h2>
+            <p>Capas del Modelo OSI de la más alta a la más baja: </p>
+            <div class="modal fade" id="modalOsi" tabindex="-1" aria-labelledby="modalOsiLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalOsiLabel">Open Systems Interconnection</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                          <div class="modal-body">                       
+                            El modelo OSI, siglas de "Open Systems Interconnection" (Interconexión de Sistemas Abiertos), es un modelo conceptual que proporciona una estructura para entender y describir cómo funcionan las redes de computadoras. 
+                            Fue desarrollado por la Organización Internacional de Normalización (ISO) en la década de 1980.
+                          </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--Capa 7 OSI-->            
+            <table class="table text-center application">
+              <thead>
+                <tr>
+                  <th data-bs-toggle="modal" data-bs-target="#capa7Osi">Capa 7: Aplicación</th>
+                  <div class="modal fade" id="capa7Osi" tabindex="-1" aria-labelledby="capa7OsiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa7OsiLabel">Capa 7</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Es la capa más alta del modelo y proporciona servicios directamente a las aplicaciones. Incluye protocolos específicos para aplicaciones como el correo electrónico (SMTP), transferencia de archivos (FTP) y navegación web (HTTP).
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </tr>
+              </thead>
+            </table>
+<!--Capa 6 OSI-->               
+            <table class="table text-center presentation">
+              <thead>
+                <tr>
+                  <th data-bs-toggle="modal" data-bs-target="#capa6Osi">Capa 6: Presentación</th>
+                  <div class="modal fade" id="capa6Osi" tabindex="-1" aria-labelledby="capa6OsiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa6OsiLabel">Capa 6</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Se encarga de la representación de los datos en un formato comprensible para las aplicaciones. Realiza tareas como la compresión, encriptación y conversión de formatos de datos.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </tr>
+              </thead>
+            </table>
+<!--Capa 5 OSI-->               
+            <table class="table text-center session">
+              <thead>
+                <tr>
+                  <th data-bs-toggle="modal" data-bs-target="#capa5Osi">Capa 5: Sesión</th>
+                  <div class="modal fade" id="capa5Osi" tabindex="-1" aria-labelledby="capa5OsiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa5OsiLabel">Capa 5</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">Establece, mantiene y finaliza las conexiones de sesión entre aplicaciones en diferentes dispositivos. Proporciona servicios de control de diálogo y sincronización entre las aplicaciones.Información sobre TCP/IP
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </tr>
+              </thead>
+            </table>
+<!--Capa 4 OSI-->               
+            <table class="table text-center transport">
+              <thead>
+                <tr>
+                  <th data-bs-toggle="modal" data-bs-target="#capa4Osi">Capa 4: Transporte</th>
+                  <div class="modal fade" id="capa4Osi" tabindex="-1" aria-labelledby="capa4OsiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa4OsiLabel">Capa 4</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Proporciona servicios de transporte de extremo a extremo, asegurando que los datos se entreguen de manera fiable y en el orden correcto. Esta capa también se encarga de dividir y reensamblar los datos en segmentos más pequeños, si es necesario.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </tr>
+              </thead>
+            </table>
+<!--Capa 3 OSI-->               
+            <table class="table text-center network">
+              <thead>
+                <tr>
+                  <th data-bs-toggle="modal" data-bs-target="#capa3Osi">Capa 3: Red</th>
+                  <div class="modal fade" id="capa3Osi" tabindex="-1" aria-labelledby="capa3OsiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa3OsiLabel">Capa 3</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Gestiona el enrutamiento de datos a través de la red. Se encarga de determinar la ruta más eficiente para enviar los datos desde el origen al destino.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </tr>
+              </thead>
+            </table>
+<!--Capa 2 OSI-->               
+            <table class="table text-center data-link">
+              <thead>
+                <tr>
+                  <th data-bs-toggle="modal" data-bs-target="#capa2Osi">Capa 2: Enlace de datos</th>
+                  <div class="modal fade" id="capa2Osi" tabindex="-1" aria-labelledby="capa2OsiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa2OsiLabel">Capa 2</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Proporciona un enlace fiable y libre de errores entre dos nodos de red adyacentes. Se encarga de la detección y corrección de errores, así como del control de flujo.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </tr>
+              </thead>
+            </table>
+<!--Capa 1 OSI-->               
+            <table class="table text-center physical">
+              <thead>
+                <tr>
+                  <th data-bs-toggle="modal" data-bs-target="#capa1Osi">Capa 1: Física</th>
+                  <div class="modal fade" id="capa1Osi" tabindex="-1" aria-labelledby="capa1OsiLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa1OsiLabel">Capa 1</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Es la capa más baja del modelo y se encarga de la transmisión física de los datos a través del medio de comunicación, como cables o señales inalámbricas.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </tr>
+              </thead>
+            </table>
+        </div>
+        
+
+<!-- TCP/IP -->
+        <div class="col-md-6">
+            <h2 data-bs-toggle="modal" data-bs-target="#modalTcpip">Modelo TCP/IP</h2>
+            <p>Modelo de red TCP/IP</p>
+            <div class="modal fade" id="modalTcpip" tabindex="-1" aria-labelledby="modalTcpipLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalTcpipLabel">Protocolo de Control de Transmisión/Protocolo de Internet (Transmission Control Protocol/Internet Protocol)</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Es un conjunto de protocolos de red ampliamente utilizado que permite la comunicación y el intercambio de datos en Internet. 
+                          Fue desarrollado en los años 70 y se convirtió en el protocolo estándar para la comunicación en redes de área amplia (WAN) y redes de área local (LAN).
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--Capa 1 TCP/IP-->
+            <div class="container-circle">
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <div class="circle circle1" data-bs-toggle="modal" data-bs-target="#capa1Tcpip">Capa 1<br>Acceso al <br> medio</div>
+                  <div class="modal fade" id="capa1Tcpip" tabindex="-1" aria-labelledby="capa1TcpipLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa1TcpipLabel">Capa 1</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              También conocida como Capa de Interfaz de Red, esta capa se encarga de la interconexión física de los dispositivos de red con el medio de transmisión, como cables o conexiones inalámbricas. 
+                              Define las especificaciones técnicas y los estándares para la transmisión de datos en el nivel físico y de enlace de datos.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>  
+<!--Capa 2 TCP/IP-->                  
+                <div class="col-auto">
+                  <div class="circle circle2" data-bs-toggle="modal" data-bs-target="#capa2Tcpip">Capa 2<br>Internet</div>
+                  <div class="modal fade" id="capa2Tcpip" tabindex="-1" aria-labelledby="capa2TcpipLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa2TcpipLabel">Capa 2</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Esta capa se ocupa del enrutamiento y direccionamiento de los paquetes de datos a través de la red. Se encarga de establecer la conexión entre diferentes redes y garantizar que los datos lleguen al destino correcto. 
+                              El protocolo principal utilizado en esta capa es el Protocolo de Internet (IP).
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+<!--Capa 3 TCP/IP-->              
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <div class="circle circle3" data-bs-toggle="modal" data-bs-target="#capa3Tcpip">Capa 3<br>Transporte</div>
+                  <div class="modal fade" id="capa3Tcpip" tabindex="-1" aria-labelledby="capa3TcpipLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa3TcpipLabel">Capa 3</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Esta capa se encarga de garantizar la entrega fiable de los datos y el control del flujo de información entre los dispositivos finales. 
+                              El protocolo principal utilizado en esta capa es el Protocolo de Control de Transmisión (TCP), que divide los datos en segmentos, los envía y los reensambla en el destino para asegurar una entrega sin errores.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+<!--Capa 4 TCP/IP-->          
+                <div class="col-auto">
+                  <div class="circle circle4" data-bs-toggle="modal" data-bs-target="#capa4Tcpip">Capa 4<br>Aplicación</div>
+                  <div class="modal fade" id="capa4Tcpip" tabindex="-1" aria-labelledby="capa4TcpipLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="capa4TcpipLabel">Capa 4</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Esta capa es la más cercana a las aplicaciones de usuario y proporciona los servicios de comunicación para aplicaciones específicas. 
+                              Aquí se encuentran los protocolos como HTTP (Hypertext Transfer Protocol) para la navegación web, FTP (File Transfer Protocol) para la transferencia de archivos, SMTP (Simple Mail Transfer Protocol) para el envío de correos electrónicos, entre otros.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+        </div>
+    </div>
+  </div>   
+</body>
+
+<!--
+
+http://127.0.0.1:5500/Home.html
+
+https://github.com/Bridgeth-SP/Sistemas-Informaticos.git
+
+-->
+</html>
+

@@ -1,0 +1,42 @@
+
+*{
+  font-family: monospace;
+}
+
+.navbar {
+  background-color: #aacffa93;
+}
+
+
+body {
+  background-image: url('https://www.actualizateprograma.es/files/pexels-tima-miroshnichenko-5380664.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container .btn {
+  margin: 100px;
+}
+
+.btn {
+  padding: 15px 30px; 
+}
+
+.btn-primary {
+
+  background-color: blue; 
+  color: white; 
+}
+
+.btn-secondary {
+  background-color: green;
+  color: white; 
+}

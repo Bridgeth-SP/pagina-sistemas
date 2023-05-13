@@ -1,0 +1,77 @@
+/*Comparativa*/
+
+* {
+  font-family: monospace;
+}
+
+.header-color {
+  background-color: #aacffa;
+}
+
+body{
+  background-color: #e0e9f4;
+}  
+
+.physical {
+    background-color: #FFA07A;
+  }
+  
+  .data-link {
+    background-color: #87CEFA;
+  }
+  
+  .network {
+    background-color: #90EE90;
+  }
+  
+  .transport {
+    background-color: #FFDAB9;
+  }
+  
+  .session {
+    background-color: #B0C4DE;
+  }
+  
+  .presentation {
+    background-color: #DDA0DD;
+  }
+
+  .application {
+    background-color: #fa8787; 
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .circle1 {
+    background-color: #007bff;
+  }
+  
+  .circle2 {
+    background-color: #28a745;
+  }
+  
+  .circle3 {
+    background-color: #ffc107;
+  }
+  
+  .circle4 {
+    background-color: #dc3545;
+  }
+
+  #comparacion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
