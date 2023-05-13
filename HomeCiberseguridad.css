@@ -2,14 +2,15 @@
 
 * {
   font-family: monospace;
+  color: white;
 }
 
 .header-color {
-  background-color: #aacffa;
+  background-color: #64a6f2;
 }
 
 body{
-  background-color: #e0e9f4;
+  background-color: #303030;
 }  
 
 .card-img {
@@ -67,7 +68,7 @@ body{
   }
 
   #fila1 {
-    background-color: #ffcccc; 
+    background-color: #990000; 
     width: 450px;
     height: 45px;
     padding: 10px;
@@ -77,7 +78,7 @@ body{
   }
 
   #fila2 {
-    background-color: #ccffcc; 
+    background-color: #007b00; 
     width: 450px;
     height: 45px;
     padding: 10px;
@@ -87,7 +88,7 @@ body{
   }
 
   #fila3 {
-    background-color: #ccccff; 
+    background-color: #00008d; 
     width: 450px;
     height: 45px;
     padding: 10px;
@@ -97,7 +98,7 @@ body{
   }
 
   #fila4 {
-    background-color: #ffffcc; 
+    background-color: #acac00; 
     width: 450px;
     height: 45px;
     padding: 10px;
@@ -106,7 +107,7 @@ body{
   }
 
   #fila5 {
-    background-color: #ffccff; 
+    background-color: #bb00bb; 
     width: 450px;
     height: 45px;
     padding: 10px;
@@ -115,7 +116,7 @@ body{
   }
 
   #fila6 {
-    background-color: #ccffff; 
+    background-color: #009e9e; 
     width: 450px;
     height: 45px;
     padding: 10px;
@@ -124,7 +125,7 @@ body{
   }
 
   #fila7 {
-    background-color: #f8c8b8d4; 
+    background-color: #ab2b00d4; 
     width: 450px;
     height: 45px;
     padding: 10px;
